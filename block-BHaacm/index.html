@@ -4,188 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkpoint-3 | HTML & CSS</title>
-    <!--Font Family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Responsive Web Design</title>
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Source+Serif+Pro:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/452b02052b.js" crossorigin="anonymous"></script>
     <!--CSS-->
     <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body>
-<header class="navbar">
-    <div class="container flex">
-        <div class="flex"> <nav>
-            <ul class="flex nav-menu">
-                <li>
-            <a href="#">
-                <img src="assets/media/logo/outline_location_on_black_24dp.png" alt="location">
-                65/A,17th floor,Kings land,New York
-            </a></li>
-            <li>
-            <a href="#">
-                <img src="assets/media/logo/outline_email_black_24dp.png" alt="email">
-                info@consulting.com
-            </a></li></ul>       
-            </nav></div>
-            <nav>
-        <ul class="flex nav-menu-2">
-            <li><a href="#">            
-                    <img class="social"src="assets/media/logo/in.png" alt="in"></a>
-            </li>
-            <li><a href="#">            
-                <img class="social"src="assets/media/logo/twitter.png" alt="tw"></a>
-        </li>                <li><a href="#">            
-            <img class="social"src="assets/media/logo/fb.png" alt="fb"></a>
-    </li>                <li><a href="#">            
-        <img class="social"src="assets/media/logo/G+.png" alt="g+"></a>
-</li>
-        </ul></nav>
-       </div>
-        <div class="container flex container-2">
-            <div class="flex">
-            <nav>
-                <ul class="flex nav-menu-3">
-                    <li> <a class="brand" href="#">
-                        <img src="assets/media/logo/logo.png" alt="logo">
-                    </a></li>
-                </ul>
-
-        </nav></div>
-            <nav>
-                <ul class="flex nav-menu-4" >
-                    <li>
-                    <a href="index.html">HOME</a>
-                </li>
-                    <li>
-                    <a href="about.html">ABOUT</a>
-                </li>
-                <li>
-                    <a href="services.html">SERVICES</a>
-                </li>
-                <li>
-                    <a href="cases.html">CASES</a>
-                </li>
-                <li>
-                    <a href="blog.html">BLOG</a>
-                </li>
-                <li>
-                    <a href="contact.html">CONTACT</a>
-                </li>
-                <li>
-                    <a class="btn" href="#">CONTACT NOW</a>
-                </li>
-                </ul>
-            </nav></div>
-</header>
-<main>
-    <section class="cases-hero center">
-        <h1>Case Study</h1>
-    </section>
-    <section class="cases-hero-2">
+    <header class="navbar">
         <div class="container">
-            <div class="cases-images-1 flex center">
-                <div class="cases-hero-wrapper">
-               <img class="cases-hero-1" src="assets/media/cases/completed_case_1.png" alt="case-1">
-               <div class="cases-text-1"><h1>Marketing Strategy</h1> <p>Completely impact synergistic mindshare</p></div></div>
-               <div class="cases-hero-wrapper">
-                <img class="cases-hero-1" src="assets/media/cases/completed_case_2.png" alt="case-2">
-                <div class="cases-text-1"><h1>Marketing Strategy</h1> <p>Completely impact synergistic mindshare</p>
-                </div></div>
-                <div class="cases-hero-wrapper">
-                <img class="cases-hero-1" src="assets/media/cases/completed_case_3.png" alt="case-3">
-                <div class="cases-text-1"><h1>Marketing Strategy</h1> <p>Completely impact synergistic mindshare</p>
-                </div></div>
-            </div>
-            <div class="cases-images-2 flex center">
-                <div class="cases-hero-wrapper">
-                <img class="cases-hero-1" src="assets/media/cases/completed_case_4.png" alt="case-4">
-                <div class="cases-text-1"><h1>Marketing Strategy</h1> <p>Completely impact synergistic mindshare</p>
-                </div></div>
-                <div class="cases-hero-wrapper">
-                <img class="cases-hero-1" src="assets/media/cases/completed_case_5.png" alt="case-5">
-                <div class="cases-text-1"><h1>Marketing Strategy</h1> <p>Completely impact synergistic mindshare</p>
-                </div></div>
-                <div class="cases-hero-wrapper">
-                <img class="cases-hero-1" src="assets/media/cases/completed_case_6.png" alt="case-6">
-                <div class="cases-text-1"><h1>Marketing Strategy</h1> <p>Completely impact synergistic mindshare</p>
-                </div></div>
-            </div>
+            <nav class="flex justify-between item-center">
+                <a href="#">
+                    <img class="brand" src="assets/media/logo.png" alt="Brand Logo">
+                </a>
+                <ul class="nav-menu flex item-center">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="active" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </section>
-    <section class="team-7">
-        <div class="container flex center">
-            <div class="col-7-1">
-                <h1>Request For Call Back</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et eveniet necessitatibus deserunt blanditiis modi labore</p>
-            </div>
-            <div class="col-7-2">
-               <div class="sub-1 flex"><div class="name flex">Name</div>
-                <div class="phone flex">Phone</div></div>
-              <div class="sub-2 flex"><div class="services flex">Services</div>
-                <div class="btn-6 flex">Send</div></div>
-            </div>
-        </div>
-    </section>
-</main>
-<footer class="footer">
-    <div class="container flex center">
-        <div class="col-8-1">
-            <img src="assets/media/logo/logo2_footer.png" alt="logo2_footer">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit.</p>
-            <div>
-                <img class="social-2" src="assets/media/logo/fb.png" alt="fb">
-                <img class="social-2" src="assets/media/logo/twitter.png" alt="tw">
-                <img class="social-2" src="assets/media/logo/in.png" alt="in">
-                <img class="social-2" src="assets/media/logo/G+.png" alt="g+">
-            </div> </div>
-            <div class="col-8-2">
-                <h1 class="company">Company</h1>
-                <ul>
-                    <li>
-                <a class="footer-nav" href="#">Home</a></li>
-                <li>
-                <a class="footer-nav" href="#">About us</a></li>
-                <li>
-                <a class="footer-nav" href="#">Services</a></li>
-                <li>
-                <a class="footer-nav" href="#">Cases</a></li>
-                <li>
-                <a class="footer-nav" href="#">Contact us</a></li></ul>
-            </div>
-            <div class="col-8-3">
-                <h1 class="company">Services</h1>
-                <ul>
-                    <li>
-                        <a class="footer-nav" href="#">Commercial Cleaning</a></li>
-                        <li>
-                        <a class="footer-nav" href="#">Office Cleaning</a></li>
-                        <li>
-                        <a class="footer-nav" href="#">Building Cleaning</a></li>
-                        <li>
-                        <a class="footer-nav" href="#">Floor Cleaning</a></li>
-                        <li>
-                        <a class="footer-nav" href="#">Apartment Cleaning</a></li></ul>
-            </div>
-            <div class="col-8-4">
-                <h1 class="company">Get In Touch</h1>
-                <ul>
-                    <li>
-                        <a class="footer-nav" href="#">152-515-6565</a></li>
-                        <li>
-                        <a class="footer-nav" href="#">Demomail@gmail.com</a></li>
-                        <li>
-                        <a class="footer-nav" href="#">New Orieans,USA</a></li>
-                        <li></ul>
-            </div>
-            
-    </div>
-    <section class="center">
-        <div class="container line center">
-            <hr class="lin">
-        
-    <small>Copyright &copy; 2020 All rights reserved | This Template is made with by Colorib</small></div></section>
-</footer>
-
+    </header>
+    <main>
+        <section class="padding hero">
+            <article class="container flex item-center justify-between">
+                <div class="flex-48">
+                    <h1 class="heading">What is lorem ipsum?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident laudantium et praesentium? Architecto corrupti magni modi blanditiis labore atque! Veritatis neque obcaecati qui! Dignissimos similique quod culpa mollitia ea!Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident laudantium et praesentium? Architecto corrupti magni modi b</p>
+                    <a class="btn" href="#">Read More</a>
+                </div>
+                <div class="flex-48">
+                    <img class="width-full" src="assets/media/01.png" alt="01">
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
